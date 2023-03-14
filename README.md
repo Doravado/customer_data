@@ -43,6 +43,8 @@
 
 - Fitted the train data into three models (logit, probit, and c-log-log), and compared their R-squared numbers. According to the results, probit regression may be the best model for the data, with 87% accuracy.
 
+- Based on the output, the longer the days since the consumer became the customer, the customer is more likely to respond to the promotion campaign.
+
 - Plotted a histogram of response probability. For the next campaign, the business can predict customer response probability based on their features and target customers more likely to respond. Targeting those customers rather than all customers can save more costs for the business.
 
 ![alt text](https://github.com/Doravado/ifood_customer_data/blob/main/image/important_feautres.png)
