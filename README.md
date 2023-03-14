@@ -33,18 +33,24 @@
 ## Data Correlation
 - Used a cluster map to visualize the correlation between variables. The purchases of all kinds of products are highly correlated. Additionally, income and the number of kids are significantly correlated with many other variables.
 
+![alt text](https://github.com/Doravado/ifood_customer_data/blob/main/image/clustermap.png)
+
 - Based on catplot and regplot, age and purchase amount are positively correlated. Each age has a broad range of purchase amounts tough.
 
-![alt text](https://github.com/Doravado/ifood_customer_data/blob/main/image/clustermap.png)
+![alt text](https://github.com/Doravado/ifood_customer_data/blob/main/image/catplot.png)
+
 
 ## Modeling Customer Response
 - Used 'Response' as Y, and all other features as X. Based on the Random Forest outcomes, I picked 'Age', 'Complain', 'Customer_Days', 'Recency',  and 'MntTotal' as the X variables in the model.
 
 - Fitted the train data into three models (logit, probit, and c-log-log), and compared their R-squared numbers. According to the results, probit regression may be the best model for the data, with 87% accuracy.
 
+![alt text](https://github.com/Doravado/ifood_customer_data/blob/main/image/confusion_matrix.png)
+
 - Based on the output, the longer the days since the consumer became the customer, the customer is more likely to respond to the promotion campaign.
+
+<img src="https://github.com/Doravado/ifood_customer_data/blob/main/image/probit.png" width="80%">
 
 - Plotted a histogram of response probability. For the next campaign, the business can predict customer response probability based on their features and target customers more likely to respond. Targeting those customers rather than all customers can save more costs for the business.
 
-![alt text](https://github.com/Doravado/ifood_customer_data/blob/main/image/confusion_matrix.png)
 ![alt text](https://github.com/Doravado/ifood_customer_data/blob/main/image/hist.png)
