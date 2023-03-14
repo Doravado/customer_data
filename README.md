@@ -9,7 +9,7 @@
 
 - Plotted a histogram of response probability. The business can use the model to target customers who are more likely to respond and save more marketing costs.
 
-![alt text](https://github.com/Doravado/ifood_customer_data/tree/main/image)
+![alt text](https://github.com/Doravado/ifood_customer_data/blob/main/image/important_feautres.png)
 
 ## Code and Resources Used
 - Tools: Jupyter Notebook
