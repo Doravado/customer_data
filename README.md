@@ -9,8 +9,7 @@
 
 - Plotted a histogram of response probability. The business can use the model to target customers who are more likely to respond and save more marketing costs.
 
-![alt text](https://github.com/Doravado/ifood_customer_data/blob/main/image/confusion_matrix.png)
-![alt text](https://github.com/Doravado/ifood_customer_data/blob/main/image/hist.png)
+![alt text](https://github.com/Doravado/ifood_customer_data/tree/main/image)
 
 ## Code and Resources Used
 - Tools: Jupyter Notebook
@@ -47,4 +46,5 @@
 
 - Plotted a histogram of response probability. For the next campaign, the business can predict customer response probability based on their features and target customers more likely to respond. Targeting those customers rather than all customers can save more costs for the business.
 
-![alt text](https://github.com/Doravado/ifood_customer_data/blob/main/image/important_feautres.png)
+![alt text](https://github.com/Doravado/ifood_customer_data/blob/main/image/confusion_matrix.png)
+![alt text](https://github.com/Doravado/ifood_customer_data/blob/main/image/hist.png)
